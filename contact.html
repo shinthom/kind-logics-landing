@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>문의하기 | 친절한 물류씨</title>
+<meta name="description" content="3PL 풀필먼트, DM 발송 무료 견적 문의. 운영 조건을 남겨주시면 담당자가 당일 연락드립니다. 대표번호 031-912-5595.">
+<meta property="og:title" content="문의하기 | 친절한 물류씨">
+<meta property="og:url" content="https://kind-logics.com/">
+<meta property="og:type" content="website">
+<!-- 폰트: Pretendard 단일 사용 -->
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="no-js">
+
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="nav-logo" href="index.html" aria-label="친절한 물류씨 홈">
+      <img src="https://cdn.imweb.me/thumbnail/20260416/5d5ccc358509e.png" alt="친절한 물류씨" width="405" height="96">
+    </a>
+    <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span>
+    </button>
+    <nav class="nav-links" id="nav-links" aria-label="주요 메뉴">
+      <a class="nav-link" href="3PL.html">3PL</a>
+      <a class="nav-link" href="DM.html">DM</a>
+      <a class="btn btn-primary nav-cta" href="contact.html">문의하기
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero contact">
+    <div class="wrap">
+      <nav class="crumb reveal" aria-label="현재 위치"><a href="index.html">홈</a><span>/</span><span>문의하기</span></nav>
+      <div class="contact-grid">
+        <div class="contact-intro">
+          <div class="eyebrow reveal">Contact · 무료 견적 문의</div>
+          <h1 class="display reveal">운영 조건만 알려주세요.<br><em>맞춤 견적</em>을 드립니다.</h1>
+          <p class="hero-sub reveal">남겨주신 내용을 확인한 뒤 담당자가 영업일 기준 당일 연락드립니다. 급하신 경우 대표번호로 바로 전화 주세요.</p>
+          <dl class="contact-direct reveal">
+            <div><dt>대표번호</dt><dd><a href="tel:031-912-5595">031-912-5595</a></dd></div>
+            <div><dt>이메일</dt><dd><a href="mailto:sales@da-logics.com">sales@da-logics.com</a></dd></div>
+            <div><dt>고객문의</dt><dd>연중무휴 09:00 – 18:00</dd></div>
+            <div><dt>물류센터</dt><dd>일산 장항동 · 2,000평 이상</dd></div>
+          </dl>
+        </div>
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="field-row">
+            <div class="field">
+              <label class="field-label" for="f-company">회사명</label>
+              <input class="input" id="f-company" name="company" type="text" autocomplete="organization">
+            </div>
+            <div class="field">
+              <label class="field-label" for="f-name">담당자명 <b aria-hidden="true">*</b></label>
+              <input class="input" id="f-name" name="name" type="text" autocomplete="name" required>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label class="field-label" for="f-tel">연락처 <b aria-hidden="true">*</b></label>
+              <input class="input" id="f-tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" placeholder="010-0000-0000" required pattern="[0-9\-\s]{9,14}">
+            </div>
+            <div class="field">
+              <label class="field-label" for="f-email">이메일</label>
+              <input class="input" id="f-email" name="email" type="email" autocomplete="email" placeholder="name@company.com">
+            </div>
+          </div>
+          <div class="field">
+            <label class="field-label" for="f-volume">월 예상 물량</label>
+            <select class="input" id="f-volume" name="volume">
+              <option value="">선택해주세요</option>
+              <option>1,000건 미만</option>
+              <option>1,000 – 5,000건</option>
+              <option>5,000 – 30,000건</option>
+              <option>30,000건 이상</option>
+              <option>잘 모르겠어요</option>
+            </select>
+          </div>
+          <div class="field">
+            <label class="field-label" for="f-message">문의 내용 <b aria-hidden="true">*</b></label>
+            <textarea class="input" id="f-message" name="message" rows="6" required placeholder="취급 상품, 현재 물류 방식, 희망 시작일 등을 자유롭게 적어주세요."></textarea>
+          </div>
+          <label class="agree">
+            <input type="checkbox" name="agree" required>
+            <span>개인정보 수집·이용에 동의합니다. <small>수집 항목: 회사명, 담당자명, 연락처, 이메일 · 목적: 견적 상담 · 보유 기간: 상담 완료 후 1년</small></span>
+          </label>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          <button class="btn btn-primary form-submit" type="submit">문의 보내기 <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 8h12M9 3l5 5-5 5"/></svg></button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="https://cdn.imweb.me/thumbnail/20260416/5d5ccc358509e.png" alt="친절한 물류씨" width="405" height="96">
+        <p>물류는 맡기고,<br>판매에만 집중하세요.</p>
+      </div>
+      <dl class="footer-info">
+        <div><dt>업체명</dt><dd>주식회사 동아물류전략</dd></div>
+        <div><dt>사업자등록번호</dt><dd>741-88-01938</dd></div>
+        <div><dt>대표번호</dt><dd><a href="tel:031-912-5595">031-912-5595</a></dd></div>
+        <div><dt>이메일</dt><dd><a href="mailto:sales@da-logics.com">sales@da-logics.com</a></dd></div>
+        <div><dt>고객문의</dt><dd>연중무휴 09:00 – 18:00</dd></div>
+        <div><dt>물류센터</dt><dd>일산 장항동 · 2,000평 이상</dd></div>
+      </dl>
+    </div>
+    <div class="footer-bottom">
+      <span>COPYRIGHT © 2026. 친절한물류씨 All rights reserved.</span>
+      <nav aria-label="약관">
+        <a href="/?mode=policy">이용약관</a>
+        <a href="/?mode=privacy">개인정보처리방침</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
