@@ -1,6 +1,4 @@
 ---
-name: Altus
-url: https://altuslabs.io/
 colors:
   primary: '#0539a0'
   primary-hover: '#042c80'
